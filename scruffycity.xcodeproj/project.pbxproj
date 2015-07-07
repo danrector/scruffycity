@@ -23,6 +23,7 @@
 		D12DC7281B4B9DA1002146CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12DC7041B4B9DA1002146CA /* UIKit.framework */; };
 		D12DC7301B4B9DA1002146CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D12DC72E1B4B9DA1002146CA /* InfoPlist.strings */; };
 		D12DC7321B4B9DA1002146CA /* scruffycityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D12DC7311B4B9DA1002146CA /* scruffycityTests.m */; };
+		D12DC73C1B4BA89B002146CA /* 2015_0529_Header21.png in Resources */ = {isa = PBXBuildFile; fileRef = D12DC73B1B4BA89B002146CA /* 2015_0529_Header21.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D12DC72D1B4B9DA1002146CA /* scruffycityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scruffycityTests-Info.plist"; sourceTree = "<group>"; };
 		D12DC72F1B4B9DA1002146CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D12DC7311B4B9DA1002146CA /* scruffycityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scruffycityTests.m; sourceTree = "<group>"; };
+		D12DC73B1B4BA89B002146CA /* 2015_0529_Header21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2015_0529_Header21.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		D12DC7071B4B9DA1002146CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D12DC73B1B4BA89B002146CA /* 2015_0529_Header21.png */,
 				D12DC7081B4B9DA1002146CA /* scruffycity-Info.plist */,
 				D12DC7091B4B9DA1002146CA /* InfoPlist.strings */,
 				D12DC70C1B4B9DA1002146CA /* main.m */,
@@ -241,6 +244,7 @@
 				D12DC71F1B4B9DA1002146CA /* Images.xcassets in Resources */,
 				D12DC70B1B4B9DA1002146CA /* InfoPlist.strings in Resources */,
 				D12DC71D1B4B9DA1002146CA /* Main.storyboard in Resources */,
+				D12DC73C1B4BA89B002146CA /* 2015_0529_Header21.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
