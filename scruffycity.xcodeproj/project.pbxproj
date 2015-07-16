@@ -27,6 +27,10 @@
 		D12DC7401B4E2D5A002146CA /* 2014_SpeakeasyatPreservationPub-150x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D12DC73D1B4E2D5A002146CA /* 2014_SpeakeasyatPreservationPub-150x150.jpg */; };
 		D12DC7411B4E2D5A002146CA /* 1417666_10100766377221273_1891426783_o-300x199.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D12DC73E1B4E2D5A002146CA /* 1417666_10100766377221273_1891426783_o-300x199.jpg */; };
 		D12DC7421B4E2D5A002146CA /* Headshot_WebSite_HiRes_2013-240x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D12DC73F1B4E2D5A002146CA /* Headshot_WebSite_HiRes_2013-240x300.jpg */; };
+		D13CAAAC1B5613BE0040DD2D /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D13CAAA81B5613BE0040DD2D /* TapkuLibrary.bundle */; };
+		D13CAABD1B5614AD0040DD2D /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D13CAAB21B5613BE0040DD2D /* libTapkuLibrary.a */; };
+		D13CAABF1B5614B60040DD2D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13CAABE1B5614B60040DD2D /* MapKit.framework */; };
+		D13CAAC11B5614BD0040DD2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13CAAC01B5614BD0040DD2D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = D12DC6FC1B4B9DA1002146CA;
 			remoteInfo = scruffycity;
+		};
+		D13CAAB11B5613BE0040DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		D13CAAB31B5613BE0040DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		D13CAAB51B5613BE0040DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 204C73E11ABA0EA600A68988;
+			remoteInfo = tapku;
+		};
+		D13CAAB71B5613BE0040DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 204C73EB1ABA0EA600A68988;
+			remoteInfo = tapkuTests;
+		};
+		D13CAABB1B56148A0040DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -67,6 +106,10 @@
 		D12DC73D1B4E2D5A002146CA /* 2014_SpeakeasyatPreservationPub-150x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014_SpeakeasyatPreservationPub-150x150.jpg"; sourceTree = "<group>"; };
 		D12DC73E1B4E2D5A002146CA /* 1417666_10100766377221273_1891426783_o-300x199.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1417666_10100766377221273_1891426783_o-300x199.jpg"; sourceTree = "<group>"; };
 		D12DC73F1B4E2D5A002146CA /* Headshot_WebSite_HiRes_2013-240x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Headshot_WebSite_HiRes_2013-240x300.jpg"; sourceTree = "<group>"; };
+		D13CAAA81B5613BE0040DD2D /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = calendar/tapkulibrary/src/TapkuLibrary.bundle; sourceTree = "<group>"; };
+		D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = calendar/tapkulibrary/src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
+		D13CAABE1B5614B60040DD2D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D13CAAC01B5614BD0040DD2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +117,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13CAAC11B5614BD0040DD2D /* QuartzCore.framework in Frameworks */,
+				D13CAABF1B5614B60040DD2D /* MapKit.framework in Frameworks */,
+				D13CAABD1B5614AD0040DD2D /* libTapkuLibrary.a in Frameworks */,
 				D12DC7031B4B9DA1002146CA /* CoreGraphics.framework in Frameworks */,
 				D12DC7051B4B9DA1002146CA /* UIKit.framework in Frameworks */,
 				D12DC7011B4B9DA1002146CA /* Foundation.framework in Frameworks */,
@@ -96,6 +142,8 @@
 		D12DC6F41B4B9DA1002146CA = {
 			isa = PBXGroup;
 			children = (
+				D13CAAA81B5613BE0040DD2D /* TapkuLibrary.bundle */,
+				D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */,
 				D12DC7061B4B9DA1002146CA /* scruffycity */,
 				D12DC72B1B4B9DA1002146CA /* scruffycityTests */,
 				D12DC6FF1B4B9DA1002146CA /* Frameworks */,
@@ -115,6 +163,8 @@
 		D12DC6FF1B4B9DA1002146CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D13CAAC01B5614BD0040DD2D /* QuartzCore.framework */,
+				D13CAABE1B5614B60040DD2D /* MapKit.framework */,
 				D12DC7001B4B9DA1002146CA /* Foundation.framework */,
 				D12DC7021B4B9DA1002146CA /* CoreGraphics.framework */,
 				D12DC7041B4B9DA1002146CA /* UIKit.framework */,
@@ -174,6 +224,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D13CAAAA1B5613BE0040DD2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13CAAB21B5613BE0040DD2D /* libTapkuLibrary.a */,
+				D13CAAB41B5613BE0040DD2D /* LogicTests.xctest */,
+				D13CAAB61B5613BE0040DD2D /* tapku.framework */,
+				D13CAAB81B5613BE0040DD2D /* tapkuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +249,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D13CAABC1B56148A0040DD2D /* PBXTargetDependency */,
 			);
 			name = scruffycity;
 			productName = scruffycity;
@@ -237,6 +299,12 @@
 			mainGroup = D12DC6F41B4B9DA1002146CA;
 			productRefGroup = D12DC6FE1B4B9DA1002146CA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D13CAAAA1B5613BE0040DD2D /* Products */;
+					ProjectRef = D13CAAA91B5613BE0040DD2D /* TapkuLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D12DC6FC1B4B9DA1002146CA /* scruffycity */,
@@ -244,6 +312,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D13CAAB21B5613BE0040DD2D /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = D13CAAB11B5613BE0040DD2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D13CAAB41B5613BE0040DD2D /* LogicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.xctest;
+			remoteRef = D13CAAB31B5613BE0040DD2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D13CAAB61B5613BE0040DD2D /* tapku.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = tapku.framework;
+			remoteRef = D13CAAB51B5613BE0040DD2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D13CAAB81B5613BE0040DD2D /* tapkuTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = tapkuTests.xctest;
+			remoteRef = D13CAAB71B5613BE0040DD2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D12DC6FB1B4B9DA1002146CA /* Resources */ = {
@@ -255,6 +354,7 @@
 				D12DC7421B4E2D5A002146CA /* Headshot_WebSite_HiRes_2013-240x300.jpg in Resources */,
 				D12DC70B1B4B9DA1002146CA /* InfoPlist.strings in Resources */,
 				D12DC71D1B4B9DA1002146CA /* Main.storyboard in Resources */,
+				D13CAAAC1B5613BE0040DD2D /* TapkuLibrary.bundle in Resources */,
 				D12DC73C1B4BA89B002146CA /* 2015_0529_Header21.png in Resources */,
 				D12DC7411B4E2D5A002146CA /* 1417666_10100766377221273_1891426783_o-300x199.jpg in Resources */,
 			);
@@ -298,6 +398,11 @@
 			isa = PBXTargetDependency;
 			target = D12DC6FC1B4B9DA1002146CA /* scruffycity */;
 			targetProxy = D12DC7291B4B9DA1002146CA /* PBXContainerItemProxy */;
+		};
+		D13CAABC1B56148A0040DD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = D13CAABB1B56148A0040DD2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -406,7 +511,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "scruffycity/scruffycity-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/danielrector/repos/scruffycity/scruffycity/calendar/tapkulibrary,
+				);
 				INFOPLIST_FILE = "scruffycity/scruffycity-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -419,7 +530,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "scruffycity/scruffycity-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/danielrector/repos/scruffycity/scruffycity/calendar/tapkulibrary,
+				);
 				INFOPLIST_FILE = "scruffycity/scruffycity-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -484,6 +601,7 @@
 				D12DC7371B4B9DA1002146CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D12DC7381B4B9DA1002146CA /* Build configuration list for PBXNativeTarget "scruffycityTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +610,7 @@
 				D12DC73A1B4B9DA1002146CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
