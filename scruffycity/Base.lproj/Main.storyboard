@@ -16,10 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2015_0529_Header21.png" translatesAutoresizingMaskIntoConstraints="NO" id="PeA-Jc-3EX">
-                                <rect key="frame" x="-7" y="152" width="335" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wkq-YI-Byy">
+                                <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2015_0529_Header21.png" translatesAutoresizingMaskIntoConstraints="NO" id="UnU-Lq-3XF">
+                                        <rect key="frame" x="-7" y="105" width="335" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -51,19 +58,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="182" translatesAutoresizingMaskIntoConstraints="NO" id="3Sr-Gb-U6p">
-                                <rect key="frame" x="69" y="323" width="182" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Speakeasy at Preservation Pub is on the 2nd floor of the 3 story bar.  The venue seats appx 80 with standing room for about 20 or so more. It’s a long shotgun room with an amazing stage, sound and lights set-up.  Open-Mic comedy has been going on since May of 2011.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address - 28 Market Square, Knoxville TN, United States" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="259" translatesAutoresizingMaskIntoConstraints="NO" id="Shq-v1-B1M">
                                 <rect key="frame" x="35" y="290" width="259" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L63-QX-KrS">
+                                <rect key="frame" x="44" y="347" width="240" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The Speakeasy at Preservation Pub is on the 2nd floor of the 3 story bar.  The venue seats appx 80 with standing room for about 20 or so more. It’s a long shotgun room with an amazing stage, sound and lights set-up.  Open-Mic comedy has been going on since May of 2011.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -71,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3VB-83-49g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="433" y="1289"/>
+            <point key="canvasLocation" x="385" y="1395"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CD5-Bp-J6R">
@@ -88,12 +96,12 @@
                         <segue destination="lBu-tj-vFw" kind="relationship" relationship="viewControllers" id="Cog-lQ-4Q3"/>
                         <segue destination="nrO-5G-lI4" kind="relationship" relationship="viewControllers" id="PI9-wB-5wL"/>
                         <segue destination="5d8-BX-OUO" kind="relationship" relationship="viewControllers" id="cpq-XY-d1W"/>
-                        <segue destination="Qdm-Nv-9Rl" kind="relationship" relationship="viewControllers" id="NIN-Bl-60L"/>
+                        <segue destination="JWt-ra-fNM" kind="relationship" relationship="viewControllers" id="ouM-qk-88m"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KeY-UD-o0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="792"/>
+            <point key="canvasLocation" x="-148" y="864"/>
         </scene>
         <!--View Controller - Comedians-->
         <scene sceneID="kDU-Yw-7Ko">
@@ -107,27 +115,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Headshot_WebSite_HiRes_2013-240x300.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oXP-8Z-nMM">
-                                <rect key="frame" x="68" y="45" width="184" height="212"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="189" translatesAutoresizingMaskIntoConstraints="NO" id="qId-Lb-389">
-                                <rect key="frame" x="68" y="265" width="189" height="269"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Matt Ward is a father, comedian, comedy show producer, writer and musician. He is an anomaly among his pears focusing on balancing the most important parts of his life. To Ward, balance is the meaning of life. “As a lover of comedy I work hard to balance not only being a great comedy producer, but a strong comedian as well. I want to be great on both sides of the mic.”  Ward says. Others marvel at the amount of projects Ward is involved in.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Matt Ward" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VxL-Nd-G3B">
-                                <rect key="frame" x="68" y="265" width="189" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MNq-is-Ymy">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C69-Ic-2lm">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Headshot_WebSite_HiRes_2013-240x300.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n82-Yy-mAk">
+                                        <rect key="frame" x="68" y="20" width="184" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Matt Ward" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bb6-1X-tJX">
+                                        <rect key="frame" x="66" y="247" width="189" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6l-jE-zKS">
+                                        <rect key="frame" x="40" y="276" width="240" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">Matt Ward is a father, comedian, comedy show producer, writer and musician. He is an anomaly among his pears focusing on balancing the most important parts of his life. To Ward, balance is the meaning of life. “As a lover of comedy I work hard to balance not only being a great comedy producer, but a strong comedian as well. I want to be great on both sides of the mic.”  Ward says. Others marvel at the amount of projects Ward is involved in.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -138,31 +148,91 @@
             </objects>
             <point key="canvasLocation" x="787" y="521"/>
         </scene>
-        <!--View Controller - Event Calendar-->
-        <scene sceneID="d22-6P-b4I">
+        <!--Table View Controller - Event Calendar-->
+        <scene sceneID="agY-6j-xSV">
             <objects>
-                <viewController id="Qdm-Nv-9Rl" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="r0j-r7-4d9"/>
-                        <viewControllerLayoutGuide type="bottom" id="RjS-uV-ZF2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fM5-5S-ZHe">
+                <tableViewController title="Event Calendar" id="JWt-ra-fNM" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="w0V-OK-tyC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PD9-ue-cP2">
-                                <rect key="frame" x="0.0" y="20" width="320" height="501"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Event Calendar" id="lyE-aj-UlC"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wkf-Dc-pwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="Ic6-AD-zRr">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="V0R-cz-EVW">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V0R-cz-EVW" id="f3h-DP-V5n">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glD-az-1NB">
+                                                    <rect key="frame" x="218" y="37" width="102" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="barTintColor" red="0.21960784310000001" green="0.45882352939999999" blue="0.84313725490000002" alpha="0.17999999999999999" colorSpace="deviceRGB"/>
+                                                    <items>
+                                                        <navigationItem title="Sunday" id="4uR-Fr-3I0"/>
+                                                    </items>
+                                                </navigationBar>
+                                                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rsw-1A-w3t">
+                                                    <rect key="frame" x="109" y="37" width="102" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="barTintColor" red="0.21960784310000001" green="0.45882352939999999" blue="0.84313725490000002" alpha="0.17999999999999999" colorSpace="deviceRGB"/>
+                                                    <items>
+                                                        <navigationItem title="Saturday" id="IlJ-XW-eER"/>
+                                                    </items>
+                                                </navigationBar>
+                                                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWG-yZ-bE5">
+                                                    <rect key="frame" x="0.0" y="37" width="102" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="barTintColor" red="0.21960784310000001" green="0.45882352939999999" blue="0.84313725490000002" alpha="0.17999999999999999" colorSpace="deviceRGB"/>
+                                                    <items>
+                                                        <navigationItem title="Friday" id="0GA-xX-9aJ"/>
+                                                    </items>
+                                                </navigationBar>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="pPy-DY-rS8">
+                                        <rect key="frame" x="0.0" y="100" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pPy-DY-rS8" id="s0I-is-PTK">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Headshot_WebSite_HiRes_2013-240x300.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m5o-sD-2h0">
+                                                    <rect key="frame" x="5" y="23" width="48" height="53"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E5b-3U-QXQ">
+                                                    <rect key="frame" x="61" y="-1" width="259" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <string key="text">
+Matt Ward
+9:30PM
+Preservation Pub
+</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="JWt-ra-fNM" id="ID4-2h-nLr"/>
+                            <outlet property="delegate" destination="JWt-ra-fNM" id="alL-WX-Tg6"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Event Calendar" id="lFg-VD-cqw"/>
+                    <navigationItem key="navigationItem" id="xLZ-Xo-YgU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0F-Wq-yKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="1265"/>
+            <point key="canvasLocation" x="915" y="1350"/>
         </scene>
     </scenes>
     <resources>
